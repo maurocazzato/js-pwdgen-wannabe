@@ -16,7 +16,7 @@ console.log(userColor);
 let userPassword = userName + userSurname + userColor + "23"
 
 // output del risultato
-console.log(password);
+console.log(userPassword);
 
 // risultato
 document.getElementById("risultato").innerHTML = "Ecco la tua nuova password: " + userPassword;
